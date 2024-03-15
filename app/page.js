@@ -8,6 +8,9 @@ export default function Home() {
     <main className={styles.main}>
       <h1>hello</h1>
       <Link className={styles.linkButton} href="/aboutus">About Us</Link>
+      <p>
+        I love my boyfriend!
+      </p>
     </main>
   );
 }
