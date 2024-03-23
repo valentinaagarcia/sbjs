@@ -1,11 +1,127 @@
-.linkButton {
-  width: 100px;
-  height: 50px;
+.card{
+  width: 44%;
   display: flex;
-  border: 1px solid gray  ;
-  text-decoration: none;
-  color: black;
   align-items: center;
-  justify-content: center;
-  border-radius: 10px;
+  justify-content:center;
+  flex-direction: column;
+}
+.window{
+  width: 100vw;
+  height: 99vh;
+  background: #BCE1E6;
+  margin: 0;
+  padding-top: 0.4%;
+}
+
+.main{
+  height: 70vh;
+  background: #BCE1E6;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.star {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px #FFF;
+}
+
+.button {
+  margin: 15px;
+  background-color: #F9C6D7;
+  width: 100px;
+  color:black;
+  text-align: center;
+}
+/* #7169da */
+.cardBody {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.options {
+  margin: 1.5px;
+  display: block;
+  background-color: white;
+  width: 500px;
+  text-align: center;
+}
+.correct {
+  background-color: black;
+}
+.site-result-demo-error-icon {
+  color: red;
+}
+.section{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.nextButton {
+  background-color: #F9C6D7;
+  width: 120px;
+  color:black;
+  text-align: center;
+}
+
+.cardPhase2 {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.mainPhase2{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  background: #BCE1E6;
+  margin: 0;
+}
+.buttonConnections {
+  background-color: #F9C6D7;
+  margin-top: 30px;
+  width: 100px;
+  color:black;
+  text-align: center;
+}
+.hello{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.connections{
+  width: 44%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.connectionBody {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.finish {
+  text-align: center;
+  background: #BCE1E6;;
+}
+.triviaResult {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
 }

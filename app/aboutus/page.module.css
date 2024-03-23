@@ -1,0 +1,23 @@
+.cardPhase2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+  }
+  .mainPhase2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background: #BCE1E6;
+    margin: 0;
+  }
+  .buttonPhase2 {
+    background-color: #F9C6D7;
+    width: 100px;
+    color:black;
+    text-align: center;
+  }
